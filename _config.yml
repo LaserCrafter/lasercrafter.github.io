@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
 title: LaserCrafter's Projects
 description: A website of some of the projects that I am working on.
+permalink: title:index.md
+permalink: about:about.html
