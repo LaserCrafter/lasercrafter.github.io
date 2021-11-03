@@ -1,4 +1,6 @@
 theme: jekyll-theme-minimal
 title: LaserCrafter's Projects
 permalink: title:index.md
-permalink: about:about.html
+permalink: contact:contact.md
+permalink: about:about.md
+permalink:
