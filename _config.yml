@@ -1,5 +1,4 @@
 theme: jekyll-theme-minimal
 title: LaserCrafter's Projects
-description: This is a website of the many projects that I undertook. If you want to know more about me, please head to my [about page](about.html).
 permalink: title:index.md
 permalink: about:about.html
