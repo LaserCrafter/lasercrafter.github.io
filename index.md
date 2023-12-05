@@ -1,6 +1,20 @@
+# Elvis Bui
+
+**Web Developer**
+
+## About Me
+Write a brief description about yourself.
+
 ## Projects
+- Project 1: Description of project 1.
+- Project 2: Description of project 2.
+<!-- Add more projects as needed -->
 
+## Contact
+- Email: elvisbui36@gmail.com
+- LinkedIn: www.linkedin.com/in/elvisbui
+<!-- Add more contact information as needed -->
 
+---
 
-![Image](https://pro2-bar-s3-cdn-cf4.myportfolio.com/44c2fc27-a1ba-4d7f-80ab-886a492e5ba9/57f5d308-a865-48ab-903a-cd964a932ec1.jpg?h=d50704baf663845cfe53463639d8de46)
-This is a website of the many projects that I undertook. If you want to know more about me, please head to my [about page](about.md).
+&copy; 2023 Elvis Bui
