@@ -1,20 +1,16 @@
 import React from 'react';
-import { Button, TextField, Container, Typography, AppBar, Toolbar, IconButton, Paper } from '@mui/material';
-import MenuIcon from '@mui/icons-material/Menu';
+import {Container, Typography, AppBar, IconButton } from '@mui/material';
 import Box from '@mui/material/Box'; // Ensure Box is imported
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import './App.css';
+import MenuBar from './MenuBar.js'
 
 function App() {
   return (
     <div>
       <AppBar position="static">
-        <Toolbar>
-          <IconButton edge="start" color="inherit" aria-label="menu">
-            <MenuIcon />
-          </IconButton>
-        </Toolbar>
+      <MenuBar />
       </AppBar>
     <Container>
       <Box className="large-container">
