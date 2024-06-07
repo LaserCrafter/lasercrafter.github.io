@@ -21,16 +21,6 @@ function Main() {
         <Typography variant="body1" gutterBottom>
           I am an aspiring software developer currently looking to work with open minds and good ideas
         </Typography>
-        <Container>
-      <Box className="social-media-container">
-        <IconButton color="primary" href="https://www.linkedin.com/in/elvisbui" target="_blank" rel="noopener noreferrer">
-          <LinkedInIcon />
-        </IconButton>
-        <IconButton color="primary" href="https://github.com/LaserCrafter" target="_blank" rel="noopener noreferrer">
-          <GitHubIcon />
-        </IconButton>
-      </Box>
-    </Container>
       </Box>
     </Container>
     </div>
