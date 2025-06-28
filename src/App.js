@@ -8,6 +8,7 @@ import { Route, Routes } from 'react-router-dom';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Navbar from './navbar.js';
+import Fab from './components/fab.js';
 
 function Main() {
   return (
@@ -21,6 +22,7 @@ function Main() {
           Welcome to my portfolio! I am an aspiring software engineer looking to collaborate with the biggest minds in this industry. 
         </Typography>
       </Box>
+      <Fab />
     </Container>
     </div>
   );
@@ -38,9 +40,16 @@ function App() {
           <Route path="/" element={<Main />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/fab" element={<Fab/>} />
         </Routes>
       </Container>      
     </div>
+  );
+}
+
+function button(){
+  return(
+    <Fab/>
   );
 }
 

@@ -6,7 +6,7 @@ const Navbar = () => {
 
 <nav className="navbar">
   <div className="navbar-left">
-    <a className="logo">
+    <a className="title">
       My Portfolio
     </a>
   </div>

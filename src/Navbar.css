@@ -7,7 +7,7 @@
   padding: 1rem;
 }
 
-.navbar-left .logo {
+.navbar-left .title {
   font-size: 1.5rem;
   font-weight: bold;
   color: #fff;
@@ -24,6 +24,7 @@
 
 .navbar-center .nav-links li {
   margin-right: 1rem;
+  align-items: center;
 }
 
 .navbar-center .nav-links a {
