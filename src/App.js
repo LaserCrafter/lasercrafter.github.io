@@ -5,10 +5,9 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import About from './pages/About';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
-import MenuBar from './MenuBar';
+import Navbar from './navbar.js';
 
 function Main() {
   return (
@@ -19,7 +18,7 @@ function Main() {
           Hello, I'm Elvis Bui.
         </Typography>
         <Typography variant="body1" gutterBottom>
-          I am an aspiring software developer currently looking to work with open minds and good ideas
+          Welcome to my portfolio! I am an aspiring software engineer looking to collaborate with the biggest minds in this industry. 
         </Typography>
       </Box>
     </Container>
@@ -32,12 +31,11 @@ function App() {
   return (
     <div>
       <AppBar position="static">
-      <MenuBar />
+      <Navbar />
       </AppBar>
       <Container>
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
