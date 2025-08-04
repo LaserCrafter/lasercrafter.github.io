@@ -1,13 +1,14 @@
 import React from 'react';
 import {Container, Typography, AppBar, IconButton } from '@mui/material';
 import Box from '@mui/material/Box'; // Ensure Box is imported
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import LinkedInIcon from '@mui/icons-material/LinkedIn'; 
 import GitHubIcon from '@mui/icons-material/GitHub';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Navbar from './navbar.js';
+import About from './pages/About';
 import Fab from './components/fab.js';
 
 function Main() {
@@ -22,7 +23,6 @@ function Main() {
           Welcome to my portfolio! I am an aspiring software engineer looking to collaborate with the biggest minds in this industry. 
         </Typography>
       </Box>
-      <Fab />
     </Container>
     </div>
   );
@@ -41,6 +41,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/fab" element={<Fab/>} />
+          <Route path="/about" element={<About/>}/>
         </Routes>
       </Container>      
     </div>
