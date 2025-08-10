@@ -8,7 +8,7 @@ function About() {
   <h1>About me:</h1>
   <Container>
     <Box className="large-container">
-        <Typography variant="body1">
+        <Typography variant="body2">
         Welcome to my portfolio! I am an aspiring software engineer looking to collaborate with the biggest minds in this industry. 
         </Typography>
       </Box>

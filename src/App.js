@@ -9,7 +9,6 @@ import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Navbar from './navbar.js';
 import About from './pages/About';
-import Fab from './components/fab.js';
 
 function Main() {
   return (
@@ -17,7 +16,7 @@ function Main() {
     <Container>
       <Box className="large-container">
         <Typography variant="h2" gutterBottom>
-          Hello, I'm Elvis Bui.
+          Hello, I'm Elvis Bui!
         </Typography>
         <Typography variant="body1" gutterBottom>
           Welcome to my portfolio! I am an aspiring software engineer looking to collaborate with the biggest minds in this industry. 
@@ -40,17 +39,10 @@ function App() {
           <Route path="/" element={<Main />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/fab" element={<Fab/>} />
           <Route path="/about" element={<About/>}/>
         </Routes>
       </Container>      
     </div>
-  );
-}
-
-function button(){
-  return(
-    <Fab/>
   );
 }
 
