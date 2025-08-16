@@ -23,24 +23,28 @@
 }
 
 .large-container {
-  background-color: #f5f5f5; /* Light grey background */
+  background-color: #fff; /* Light grey background */
   height: 80vh; /* 80% of the viewport height */
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   padding: 20px;
   margin-top: 20px;
   border-radius: 8px;
 }
 
-.social-media-container {
+.icon-container{
   display: flex;
-  justify-content: center;
-  margin-top: 20px;
+  align-items: center;
 }
 
+.icon {
+    cursor: pointer; /* Change cursor to pointer */
+    margin-right: 10px; /* Space between icons */
+    transition: transform 0.2s; /* Smooth scaling effect */
+}
 
-.social-media-container .MuiIconButton-root {
-  margin: 0 10px;
+.icon:hover {
+    transform: scale(1.1); /* Scale up on hover */
 }
