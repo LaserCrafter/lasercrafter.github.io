@@ -17,10 +17,10 @@ function Main() {
     <Container>
       <Box className="large-container">
         <Typography variant="h2" gutterBottom>
-          Hello, I'm Elvis Bui!
+          Hello, I am Elvis Bui!
         </Typography>
         <Typography variant="body1" gutterBottom>
-          Welcome to my portfolio! 
+           Welcome to my portfolio! 
         </Typography>
           <div className="icon-container"> {/* Flex container for icons */}
             <a href="https://www.linkedin.com/in/elvisbui" target="_blank" rel="noopener noreferrer">
